@@ -1,0 +1,27 @@
+Direct creating vite application in current folder:
+npm create vite@latest ./ -- --template react
+
+ npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser
+
+ npm install framer-motion react-router-dom
+ 
+ npm install -D tailwindcss
+ npm install --legacy-peer-deps -D postcss autoprefixer
+ npx tailwindcss init -p
+
+
+react-tilt: Desing About section card movement
+react-vertical-timeline====> Experience Section vertical line
+
+--------------------------------------------------------------------
+ The --legacy-peer-deps flag is used to install packages with peer dependencies that do not meet the required version range. This means that the package you are trying to install may have dependencies that are not compatible with the versions of the packages you have installed in your project.
+
+ For example, if a package requires a specific version of a peer dependency, but you have installed a different version of that peer dependency in your project, the package may not work correctly. In this case, you can use the 
+ --legacy-peer-deps flag to install the package despite the peer dependency issue.
+  
+ However, it is generally recommended to use the latest version of npm, as it resolves peer dependency issues automatically. This means that you don't need to use the 
+ --legacy-peer-deps flag as much, as npm should be able to resolve any peer dependency issues automatically.
+-------------------------------------------------------------------
+
+//three.js ---
+ npm install --legacy-peer-deps three
